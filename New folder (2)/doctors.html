@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Doctors - Doctor Channeling</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: flex-end;
+        }
+        nav ul li {
+            margin-left: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #ffdd57;
+        }
+        main {
+            padding: 40px 0;
+        }
+        h2 {
+            text-align: center;
+            color: #007bff;
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+        }
+        .doctor-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+        .doctor-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: calc(33.333% - 20px);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .doctor-card:hover {
+            transform: translateY(-5px);
+        }
+        .doctor-card img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+        .doctor-card h3 {
+            color: #007bff;
+            margin-bottom: 5px;
+        }
+        .doctor-card p {
+            color: #666;
+            margin-bottom: 15px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Doctor Channeling</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="doctors.html">Doctors</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Our Expert Doctors</h2>
+            <div class="doctor-list">
+                <div class="doctor-card">
+                    <img src="https://via.placeholder.com/150" alt="Dr. kkkkk">
+                    <h3>Dr. kkkkk</h3>
+                    <p>Cardiologist</p>
+                    <a href="booking.html?doctor=john-smith" class="btn">Book Appointment</a>
+                </div>
+                <div class="doctor-card">
+                    <img src="https://via.placeholder.com/150" alt="Dr. ooooo">
+                    <h3>Dr. ooooo</h3>
+                    <p>Dermatologist</p>
+                    <a href="booking.html?doctor=emily-ooooo" class="btn">Book Appointment</a>
+                </div>
+                <div class="doctor-card">
+                    <img src="https://via.placeholder.com/150" alt="Dr. ggggg">
+                    <h3>Dr. ggggg</h3>
+                    <p>Orthopedic Surgeon</p>
+                    <a href="booking.html?doctor=michael-lee" class="btn">Book Appointment</a>
+                </div>
+                <div class="doctor-card">
+                    <img src="https://via.placeholder.com/150" alt="Dr. zzzzz">
+                    <h3>Dr. zzzzz</h3>
+                    <p>Pediatrician</p>
+                    <a href="booking.html?doctor=zzzzz" class="btn">Book Appointment</a>
+                </div>
+                <div class="doctor-card">
+                    <img src="https://via.placeholder.com/150" alt="Dr. ccccc">
+                    <h3>Dr.ccccc</h3>
+                    <p>Neurologist</p>
+                    <a href="booking.html?doctor=david-chen" class="btn">Book Appointment</a>
+                </div>
+                <div class="doctor-card">
+                    <img src="https://via.placeholder.com/150" alt="Dr. vvvvv">
+                    <h3>Dr. vvvvv</h3>
+                    <p>Gynecologist</p>
+                    <a href="booking.html?doctor=vvvvv" class="btn">Book Appointment</a>
+                </div>
+                <div class="doctor-card">
+                    <img src="https://via.placeholder.com/150" alt="Dr. mmmmm">
+                    <h3>Dr. mmmmm</h3>
+                    <p>Ophthalmologist</p>
+                    <a href="booking.html?doctor=mmmmm" class="btn">Book Appointment</a>
+                </div>
+                <div class="doctor-card">
+                    <img src="https://via.placeholder.com/150" alt="Dr. wwwww">
+                    <h3>Dr. wwwww</h3>
+                    <p>Psychiatrist</p>
+                    <a href="booking.html?doctor=wwwww" class="btn">Book Appointment</a>
+                </div>
+                <div class="doctor-card">
+                    <img src="https://via.placeholder.com/150" alt="Dr. wwwww">
+                    <h3>Dr. wwwww</h3>
+                    <p>Endocrinologist</p>
+                    <a href="booking.html?doctor=wwwww" class="btn">Book Appointment</a>
+                </div>
+                <div class="doctor-card">
+                    <img src="https://via.placeholder.com/150" alt="Dr. rrrrr">
+                    <h3>Dr. rrrrr</h3>
+                    <p>Oncologist</p>
+                    <a href="booking.html?doctor=rrrrr" class="btn">Book Appointment</a>
+                </div>
+                <div class="doctor-card">
+                    <img src="https://via.placeholder.com/150" alt="Dr. uuuuu">
+                    <h3>Dr. uuuuu</h3>
+                    <p>Urologist</p>
+                    <a href="booking.html?doctor=kevin-uuuuu" class="btn">Book Appointment</a>
+                </div>
+                <div class="doctor-card">
+                    <img src="https://via.placeholder.com/150" alt="Dr. lllll">
+                    <h3>Dr. lllll</h3>
+                    <p>Rheumatologist</p>
+                    <a href="booking.html?doctor=lllll" class="btn">Book Appointment</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Doctor Channeling. All rights reserved.</p>
+    </footer>
+</body>
+</html>
